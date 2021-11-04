@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+select,
+input {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  -moz-appearance: none !important;
+}
+
+.ws-chat-btn-el-container {
+  display: none !important;
+}
+
+.ws-chat-container {
+  left: unset !important;
+  right: 0 !important;
+}
+
+.vue-slider-process {
+  background-color: #f4b81e !important;
+}
+
+.vue-slider-dot-handle {
+  border: 1px solid #f4b81e !important;
+  background-color: #f4b81e !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-gc {
+  color: #fff;
+  background-color: #ffc600;
+  border: none;
+}
+
+.btn-gc:hover {
+  background-color: #cca000;
+}
+
+ul.tree-list {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+ul.tree-list button {
+  border: none;
+  background: transparent;
+}
+
+ul.tree-list button.active-li a {
+  color: #333333 !important;
+}
+
+ul.tree-list > li {
+  border-bottom: 1px solid #495057;
+}
+
+ul.tree-list > li span.angle {
+  background: #495057;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul.tree-list a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+ul.tree-list li {
+  width: 100%;
+}
+
+ul.tree-list li button.value {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul.tree-list li button.value .rotate {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+ul.tree-list li .actions {
+  display: inline-block;
+  position: relative;
+  z-index: -1;
+}
+
+ul.tree-list li ul.children-ul {
+  list-style-type: none;
+  margin: 0px;
+  display: none;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3) !important;
+}
+
+ul.tree-list li ul.children-ul a {
+  font-weight: normal !important;
+}
+
+ul.tree-list li ul.children-ul span.angle {
+  background: transparent;
+}
+
+ul.tree-list li ul.active {
+  display: block;
+}
+
+.container-z {
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+.container-zz {
+  padding: 0px 30px;
+  margin: 0 auto;
+}
+
+.card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row-z {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (min-width: 1435px) {
+  .container-z {
+    max-width: 1405px;
+  }
+  .container-zz {
+    max-width: 1405px;
+  }
+}
+
+.container-one {
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1435px) {
+  .container-one {
+    max-width: 1405px;
+  }
+}
+
+@media (max-width: 834px) {
+  .container-one {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 576px) {
+  .productby-id .slick-dots li button:before {
+    font-size: 10px !important;
+  }
+  .productby-id .slick-dots li.slick-active button:before {
+    color: #ffc600 !important;
+  }
+  .container-z {
+    padding: 0px 15px;
+  }
+  .container-z h1 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .container-zz {
+    padding: 0px;
+    overflow: hidden;
+  }
+  .container-one h1 {
+    font-weight: bold !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
