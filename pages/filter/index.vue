@@ -572,7 +572,6 @@ export default {
         },
 
         // get find all children
-
         getChild(category) {
             category.forEach(item => {
                 this.idList.push(item._id);
